@@ -1,5 +1,5 @@
 // export default function Conditional(props) {
-    
+
 //   const Weather = props.rain;
 //   if (Weather) {
 //     return <h1>Rainy </h1>;
@@ -17,15 +17,17 @@
 //         </>
 //     );
 //};
-export default function Conditional(props){
-    let Weather =props.climate;
-    return(
-        <>
-       <h1>
-        {
-            (Weather == 'winter' ? (<span>Climate is winter</span>) :(<span>Climate rainy</span>))
-        }
-       </h1>
-        </>
-    );
+export default function Conditional(props) {
+  let Weather = props.climate;
+  return (
+    <>
+      <h1>
+        {Weather == "winter" ? (
+          <span>Climate is winter</span>
+        ) : (
+          <span>Climate rainy</span>
+        )}
+      </h1>
+    </>
+  );
 }
