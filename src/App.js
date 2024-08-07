@@ -1,10 +1,5 @@
-//import Profile from "./components/User";
 //import logo from './logo.svg';
 import "./App.css";
-//import Profile from "./components/Profile";
-//import Users from "./components/User";
-//import Conditional from "./components/Whether";
-
 function App() {
   return (
     <div className="App">
