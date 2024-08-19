@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+/* .inpage a{
+
+  text-decoration: none;
+}*/
+
+.inpage{
+  padding: 1rem;
+  font-size: xx-large;
+} 
+
+/* h2{
+  color: rgb(100, 7, 21);
+  background-color: darkgrey;
+  margin: 3rem;
+  padding: 3rem;
+  font-weight: bolder;
+  font-style: unset;
+
+} */

@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+// import "./index.css";
 import App from "./App";
+// import Form from "./components/form";
 import reportWebVitals from "./reportWebVitals";
-import Favouritecolor from "./components/Favouritecolor";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <Favouritecolor/>
-  </React.StrictMode>
+  <>
+    
+    {/* <Form/> */}
+  
+    <App/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

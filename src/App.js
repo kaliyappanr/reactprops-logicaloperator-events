@@ -1,5 +1,10 @@
 //import logo from './logo.svg';
 import "./App.css";
+import Input from "./components/Input";
+// import Effect from "./components/Statehooks&effects";
+import Design from "./components/Design";
+// import Hooks from "./components/hooksandeffects";
+// import State from "./components/state";
 function App() {
   return (
     <div className="App">
@@ -17,6 +22,10 @@ function App() {
           Learn React
         </a>
       </header>*/}
+    <Design/>
+    {/* <State/> */}
+    {/* <Input/> */}
+    {/* <Effect/> */}
     
     </div>
   );
