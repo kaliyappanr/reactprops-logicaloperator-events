@@ -10,7 +10,7 @@ export default function Design() {
   // },[])
   useEffect(()=>{
   async function getData() {
-    const url ='https://jsonplaceholder.typicode.com/users';
+    const url ='https://jsonplaceholder.typicode.com/posts';
     try{
       const response = await fetch(url);
       if(!response.ok){
@@ -30,11 +30,23 @@ export default function Design() {
  
 
   return(
-    <>
+<>
     {data.map((user)=>
-      <p>
-        {`Id : ${user.id}`} -- {`Name : ${user.name}`} -- {`Email : ${user.email}`}
-      </p>
+    // {m-1}
+    <div class="m-1 card" style={{width:"15rem"}}>
+    <div class="card-body">
+    <h5 class="card-title">{user.id}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">{user.title}</h6>
+    <p class="card-text">{user.body}</p>
+    {/* <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a> */}
+  </div>
+</div>
+    
+
+      // <p>
+      //   {`Id : ${user.id}`} -- {`Tittle : ${user.title}`}
+      // </p>
     )}
     </>
   )
